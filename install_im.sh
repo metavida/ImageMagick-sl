@@ -85,14 +85,14 @@ function should_install_check () {
 }
 
 # Before running anything try to download all requires files, saving time.
-#to_install "ghostscript" http://ghostscript.googlecode.com/files/ghostscript-8.70.tar.gz
-#to_install "freetype" http://"$SF_MIRROR".dl.sourceforge.net/project/freetype/freetype2/2.3.11/freetype-2.3.11.tar.gz
-#to_install "gs-fonts" http://"$SF_MIRROR".dl.sourceforge.net/gs-fonts/ghostscript-fonts-std-8.11.tar.gz
-#to_install "libwmf" http://"$SF_MIRROR".dl.sourceforge.net/project/wvware/libwmf/0.2.8.4/libwmf-0.2.8.4.tar.gz
-#to_install "jpegsrc" http://www.ijg.org/files/jpegsrc.v7.tar.gz
-#to_install "libtiff" ftp://ftp.remotesensing.org/pub/libtiff/tiff-3.9.2.tar.gz
-#to_install "libpng" ftp://ftp.simplesystems.org/pub/libpng/png/src/libpng-1.2.42.tar.gz
-#to_install "lcms" http://www.littlecms.com/lcms-1.19.tar.gz
+to_install "ghostscript" http://ghostscript.googlecode.com/files/ghostscript-8.70.tar.gz
+to_install "freetype" http://"$SF_MIRROR".dl.sourceforge.net/project/freetype/freetype2/2.3.11/freetype-2.3.11.tar.gz
+to_install "gs-fonts" http://"$SF_MIRROR".dl.sourceforge.net/gs-fonts/ghostscript-fonts-std-8.11.tar.gz
+to_install "libwmf" http://"$SF_MIRROR".dl.sourceforge.net/project/wvware/libwmf/0.2.8.4/libwmf-0.2.8.4.tar.gz
+to_install "jpegsrc" http://www.ijg.org/files/jpegsrc.v7.tar.gz
+to_install "libtiff" ftp://ftp.remotesensing.org/pub/libtiff/tiff-3.9.2.tar.gz
+to_install "libpng" ftp://ftp.simplesystems.org/pub/libpng/png/src/libpng-1.2.42.tar.gz
+to_install "lcms" http://www.littlecms.com/lcms-1.19.tar.gz
 to_install "ImageMagick" ftp://ftp.imagemagick.org/pub/ImageMagick/ImageMagick-6.5.9-0.tar.gz
 
 # Decompress applications.
